@@ -4,11 +4,20 @@ ul {
     padding: 0;
   }
 
+  .header{
+      padding: 50px;
+      text-align: left;
+      text-color: white;
+      background: green;
+      
+  }
 
-body {
+.body {
     background-image:  url("C:\Users\missh\Basic-Portfolio\Assets\images\email-pattern.png");
-
+    font-family: Georgia;
 }
+
+.h1 
 
 #bio-image {
     float: right;
