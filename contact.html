@@ -18,9 +18,9 @@
                 <nav>
                   <div>
                   <ul>
-                          <li><a class="About" href="#">About</a></li>
-                          <li><a class="Portfolio" href=Basic-Portfolio\portfolio.html>Portfolio</a></li>
-                          <li><a class="Contact" href="Basic-Portfolio\contact.html">Contact</a></li>
+                          <li><a class="About" href="index.html">About</a></li>
+                          <li><a class="Portfolio" href=portfolio.html>Portfolio</a></li>
+                          <li><a class="Contact" href="contact.html">Contact</a></li>
                    </ul>
                   </div>   
             </nav>
@@ -28,13 +28,47 @@
              </div>
              <div class="cleardiv"></div>
               </header>
+            <div class="contact">
+                <h1>
+                    Contact
+                </h1>
+            </div>
     </section>
 
-    <form action="#" method="get">
-        Name: <input type="text" name="name"><br>
-        Email: <input type="text" name="email"><br>
-        Message:<input type="text" name="message"placeholder="hello"style=height:100px><br>
+    <div class="form-container"
 
+        <div class="form-one">
+          <form action="#" method="get">
+              <label for="name">
+              <div class="form-group">
+                Name:
+                </label>
+                <input type="text" id="name">
+                    <br>
+              </div>
+              <label for="email">
+              <div class="form-group">
+                Email:
+                </label>
+                  <input type="email" id="email">
+                  <br>
+              </div>
+              <label for="message">
+              <div class="form-group">
+                Message:
+                </label>
+                 <textarea id="message">
+
+                 </textarea>
+                  <br>  
+                </div>
+           </div>  
+           
+           <input type="submit" value="Submit" id="submitBtn">
+           
+
+        
+    </div>
     </form>
 
 
